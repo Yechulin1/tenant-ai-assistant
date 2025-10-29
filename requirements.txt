@@ -1,0 +1,28 @@
+# --- Core web & utils ---
+streamlit>=1.37.0
+python-dotenv>=1.0.1
+pandas>=2.2.2
+numpy>=1.26.4
+requests>=2.32.3
+tqdm>=4.66.4
+typing-extensions>=4.10.0
+
+# --- LangChain ecosystem (OLD VERSION - 与代码兼容) ---
+# 注意：代码使用的是 LangChain 0.0.x 旧版 API
+# 如果升级到 0.2.x，需要大量修改代码中的导入和参数
+langchain==0.0.350
+langchain-community==0.0.38
+openai==0.28.1
+
+# --- Retrieval / embeddings ---
+faiss-cpu>=1.8.0
+tiktoken>=0.7.0
+
+# --- PDF / document loaders ---
+pdfplumber>=0.11.0
+pypdf>=4.2.0
+pymupdf>=1.24.8
+python-docx>=1.1.0
+
+# --- Security / hashing ---
+bcrypt>=4.1.3
